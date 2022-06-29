@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="890.0" style="-fx-background-color: #F7CA93;" stylesheets="@../resource/css/estiloKinalMall.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.diegopatzan.controller.MenuPrincipalController">
+   <children>
+      <Pane layoutX="304.0" layoutY="-45.0" prefHeight="1048.0" prefWidth="538.0" rotate="61.7" style="-fx-background-color: #FFDAB0;" />
+      <ImageView fitHeight="405.0" fitWidth="373.0" layoutX="259.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/images/Logo%20Kinal%20Mall.png" />
+         </image>
+      </ImageView>
+      <MenuBar prefHeight="33.0" prefWidth="131.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Modulos">
+            <items>
+                  <MenuItem fx:id="menuAdministracion" mnemonicParsing="false" onAction="#mostrarVistaAdministracion" text="Administración">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/images/icons8_admin_settings_male_50px_3.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></MenuItem>
+              <MenuItem mnemonicParsing="false" onAction="#mostrarEscenaEmpleados" text="Empleados">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/images/icons8_member_24px_1_1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></MenuItem>
+                  <MenuItem mnemonicParsing="false" onAction="#mostrarEscenaProveedores" text="Proveedores">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/images/icons8_supplier_30px_1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></MenuItem>
+                  <MenuItem mnemonicParsing="false" onAction="#mostrarEscenaClientes" text="Clientes">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/images/icons8_contacts_32px_1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></MenuItem>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="?">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#mostrarVistaAutor" text="Autor">
+                     <graphic>
+                        <ImageView fitHeight="25.0" fitWidth="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resource/images/icons8_contacts_32px_1.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></MenuItem>
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <JFXButton layoutX="131.0" layoutY="-1.0" onAction="#cerrarSecion" text="Cerrar seción">
+         <graphic>
+            <ImageView fitHeight="33.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resource/images/icons8_shutdown_100px.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>

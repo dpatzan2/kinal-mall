@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="302.0" prefWidth="600.0" style="-fx-background-color: #FFDAB0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.diegopatzan.controller.AutorController">
+   <children>
+      <Label alignment="CENTER" layoutX="270.0" layoutY="28.0" prefHeight="43.0" prefWidth="248.0" text="Acerca del autor" textFill="#00b1ff">
+         <font>
+            <Font name="Bell MT" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="378.0" layoutY="115.0" text="Nombre:" />
+      <Label layoutX="384.0" layoutY="152.0" text="Grado:" />
+      <Label layoutX="380.0" layoutY="187.0" text="Sección:" />
+      <Label layoutX="310.0" layoutY="132.0" text="Diego Fernando Patzán Marroquín" />
+      <Label layoutX="353.0" layoutY="170.0" text="5to en informatica" />
+      <Label layoutX="393.0" layoutY="204.0" text="&quot;B&quot;" />
+      <Label layoutX="385.0" layoutY="221.0" text="Carné:" />
+      <Label layoutX="379.0" layoutY="245.0" text="2019173" />
+      <Pane layoutY="-3.0" prefHeight="309.0" prefWidth="209.0" style="-fx-background-color: #FE8D10;">
+         <children>
+            <ImageView fitHeight="160.0" fitWidth="140.0" layoutX="33.0" layoutY="78.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resource/images/Captura87-removebg-preview.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="45.0" layoutY="22.0" text="Back" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="27.0" fitWidth="24.0" layoutX="22.0" layoutY="16.0" onMouseClicked="#regresarMenu" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resource/images/icons8_back_to_32px_1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="301.0" layoutY="89.0" text="Centro eduactivo tecnico laboral Kinal" />
+   </children>
+</AnchorPane>

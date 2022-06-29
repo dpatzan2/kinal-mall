@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12/05/2021, 10:56:48
+    Author     : Diego Fernando Patzán Marroquín
+*/
+.menu-bar{
+    -fx-background-color: white;
+    -fx-opacity:0.8;
+}
+
+.menu-bar .label{
+    -fx-text-fill: #2C50A3;
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+    -fx-font-family: "Roboto Mono for PowerLine"
+}
+
+.menu-bar .menu-button:hover{
+    -fx-background-color: black;
+    -fx-opacity: 0.7;
+}
+
+.menu-bar {
+    -fx-background-radius: 50 50 50 50;
+}
+
+.menu-bar .menu-button{
+    -fx-background-radius: 50 50 50 50;
+}
+
+.menu-bar .menu-button .label:hover{
+    -fx-text-fill: white;
+}
+
+.menu-item:hover{
+    -fx-background-color: black;
+    -fx-opacity: 0.7;
+}
+
+.menu-item{
+    -fx-background-radius: 50 50 50 50;
+}
